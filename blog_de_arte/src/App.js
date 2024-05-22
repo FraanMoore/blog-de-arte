@@ -1,6 +1,7 @@
 import './App.css';
 import axios from "axios";
 import Canvas from './components/canvas';
+import Home from './views/home';
 import { useEffect, useState } from 'react';
 
 const  API_URL = "http://localhost:3000/api/v1/canvas";
@@ -24,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello world</h1>
+      <Home home={Home} />
       <Canvas canvas={canvas} />
     </div>
   );
