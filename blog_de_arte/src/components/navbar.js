@@ -11,6 +11,9 @@ function Navbar() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <ul className="navbar-nav ms-auto">
+      <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#">Quién soy</a>
+        </li>
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">Cuadros</a>
         </li>
